@@ -1,7 +1,8 @@
 # Rust-Raiding-Decay-ChromeExtension
 
+**License:** Personal Use Only – See License 
 
-# 🧨 Ultimate Rust Raiding Calculator (Chrome Extension)
+# Ultimate Rust Raiding Calculator (Chrome Extension)
 
 This Chrome extension is built for Rust players who want fast, accurate raid cost calculations and decay monitoring right in their browser. Whether you're planning a quick door breach or a full-blown base raid, this tool gives you everything you need — including a built-in **decay timer with real-time notifications**.
 
