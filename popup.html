@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ultimate Rust Raiding Calculator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Rust Raiding Calculator</h1>
+  </header>
+  <main>
+    <!-- Mode Toggle -->
+    <section id="mode-section">
+      <label>
+        <input type="checkbox" id="advanced-mode-toggle"> Advanced Mode
+      </label>
+    </section>
+    
+    <!-- Casual (Standard) Mode -->
+    <section id="standard-mode">
+      <h2>Raiding Calculator (Casual)</h2>
+      <div class="section-content">
+        <label for="raid-target">Select Structure:</label>
+        <select id="raid-target">
+          <option value="wall">Wall</option>
+          <option value="door">Door</option>
+          <option value="garage-door">Garage Door</option>
+        </select>
+
+        <label for="material-type">Material:</label>
+        <select id="material-type"></select>
+
+        <label for="raid-method">Raiding Method:</label>
+        <select id="raid-method">
+          <option value="rocket">Rocket</option>
+          <option value="c4">C4</option>
+          <option value="satchel">Satchel Charge</option>
+          <option value="explosiveAmmo">Explosive Ammo</option>
+          <option value="beancan">Beancan Grenade</option>
+          <option value="f1">F1 Grenade</option>
+        </select>
+
+        <!-- NEW: Amount field in Standard Mode -->
+        <label for="amount-standard">Amount:</label>
+        <input type="number" id="amount-standard" min="1" value="1">
+
+        <button id="calculate-btn">Calculate</button>
+        <div id="result-area"></div>
+      </div>
+    </section>
+    
+    <!-- Advanced Mode -->
+    <section id="advanced-mode" class="hidden">
+      <h2>Advanced Raid Planner</h2>
+      <div id="raid-steps">
+        <!-- Dynamically added raid steps (with “Amount” input) will appear here -->
+      </div>
+      <button id="add-step-btn">Add Raid Step</button>
+      <div id="advanced-result"></div>
+    </section>
+    
+    <!-- Decay Tracker -->
+    <section id="decay-section">
+      <h2>Decay Tracker</h2>
+      <button id="toggle-decay-btn">Show/Hide Decay Tracker</button>
+      <div id="decay-tracker" class="hidden">
+        <label for="decay-structure">Structure:</label>
+        <select id="decay-structure">
+          <option value="wall">Wall</option>
+          <option value="door">Door</option>
+          <option value="garage-door">Garage Door</option>
+        </select>
+
+        <label for="current-hp">Current HP:</label>
+        <input type="number" id="current-hp" min="1">
+        <button id="start-tracking-btn">Start Tracking</button>
+
+        <h3>Tracked Structures</h3>
+        <ul id="tracked-items"></ul>
+      </div>
+    </section>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
