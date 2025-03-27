@@ -1,21 +1,19 @@
-MIT License
+Rust Raid Planner & Decay Tracker
+Custom License - Personal Use Only
 
-Copyright (c) 2025 JaraCano
+Copyright (c) 2025 Ivan Jara Cano
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to any individual to use, run, and modify this software for personal, non-commercial purposes.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You are NOT permitted to:
+- Redistribute this software in part or whole
+- Re-upload it to any extension store, marketplace, or public distribution channel
+- Use it for commercial purposes
+- Claim authorship or remove credit to the original creator
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Credit must always be given to the original creator:
+> Ivan Jara Cano (github.com/JaraCano)
+
+This software is provided "as is", without warranty of any kind. The creator is not responsible for any issues arising from use of the software.
+
+For licensing exceptions or commercial inquiries, contact: ivanjaracano@outlook.com
