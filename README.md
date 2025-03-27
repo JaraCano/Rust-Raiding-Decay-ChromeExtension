@@ -34,4 +34,13 @@ Install & Use
 4. Click **Load unpacked** and select the project folder.
 5. Use the extension icon to open the popup and start calculating.
 
-## 📁 Project Structure
+##  Project Structure
+background.js
+icons
+|-icon16.png
+|-icon48.png
+|-icon128.png
+manifest.json
+popup.css
+popup.html
+popup.js
