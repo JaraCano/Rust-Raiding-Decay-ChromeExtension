@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Ultimate Rust Raiding Calculator",
   "version": "1.0",
-  "description": "A comprehensive raiding calculator and planner for Rust, featuring live decay tracking, advanced raid planning, team split calculations, and live server integration.",
+  "description": "A Rust raiding calculator with decay tracking, raid planning, team splits, and live server features.",
   "permissions": [
     "storage",
     "alarms",
