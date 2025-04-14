@@ -2,12 +2,11 @@
   "manifest_version": 3,
   "name": "Ultimate Rust Raiding Calculator",
   "version": "1.0",
-  "description": "A Rust raiding calculator with decay tracking, raid planning, team splits, and live server features.",
+  "description": "A Rust raiding calculator with decay tracking, raid planning, and team split support.",
   "permissions": [
     "storage",
     "alarms",
-    "notifications",
-    "activeTab"
+    "notifications"
   ],
   "background": {
     "service_worker": "background.js"
@@ -25,9 +24,6 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "host_permissions": [
-    "<all_urls>"
-  ],
   "web_accessible_resources": [
     {
       "resources": [
